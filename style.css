@@ -6,8 +6,11 @@
 }
 
 .leading-box-text-child {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
+    color: #061423;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.2em;
 }
 
 .logo-img {
@@ -16,18 +19,39 @@
     padding-top: 30px;
 }
 
-.form-button  {
-    background: #1d3557;
-
+.textadjorn {
+    width: 750px;
 }
 
-.input-height {
+.form {
+    font-family: 'Quicksand', 'Arial', 'Helvetica', sans-serif !important;
+}
+
+.form-button  {
+    background: #1d3557;
     height: 50px;
     border: none;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 500;
     color: #54595F;
+}
+
+.input-height {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: 500;
+    color: #54595F;
+}
+
+@media only screen and (max-width: 768px) {
+
+.textadjorn {
+    width:fit-content;
+}
 }
 
 /* --e-global-color-primary: #457B9D;
