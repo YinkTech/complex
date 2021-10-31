@@ -1,0 +1,36 @@
+
+.first-leading-box {
+    background: #F1FAEE;
+    color: #000;
+
+}
+
+.leading-box-text-child {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.form-button  {
+    background: #1d3557;
+
+}
+
+.input-height {
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #54595F;
+}
+
+/* --e-global-color-primary: #457B9D;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #5D7083;
+    --e-global-color-accent: #A8DADC; */
